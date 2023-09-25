@@ -1,0 +1,72 @@
+
+#body{
+    background-color: rgb(236, 235, 182);
+}
+
+/* navbar start */
+#navbar {
+    background-color: rgb(81, 238, 50);
+    height: 80px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#logo {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    padding: 1px 15px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#logo:hover {
+    background-color: rgb(103, 194, 93);
+    color: black;
+}
+
+#btn {
+    background-color: rgb(42, 87, 87);
+    color: white;
+    font-weight: bolder;
+}
+#btn:hover{
+    background-color: rgb(64, 134, 134);
+    color: rgb(8, 8, 8);
+}
+
+/* navbar end */
+
+/* welcome end */
+.welcome{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 100px 0px;
+}
+/* welcome end */
+
+/* buttons start  */
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns button{
+    margin: 0px 15px;
+    height: 50px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: rgb(238, 145, 6);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 1s;
+}
+.btns button:hover{
+    background-color: rgb(77, 47, 3);
+    color: white;
+}
+/* buttons end */
